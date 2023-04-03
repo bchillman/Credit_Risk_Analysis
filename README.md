@@ -1,6 +1,6 @@
 # Credit_Risk_Analysis
 ## Overview
-In this analysis we analyze credit card data using multiple supervised machine learning models. These models can be classified into two categories, resampling and ensemble. The resampling models utilize either oversampling or undersampling to better represent both low-risk and high-risk loans. The ensemble models use ensemble algorithms to categorize this same data. These 6 models (4 resampling and 2 ensemble) were then compared using both an accuracy score and a classification report.
+In this analysis we analyze credit card data using multiple supervised machine learning models, with the goal of finding a model that best determines whether a loan is a high-risk for fraud or low-risk. These models can be classified into two categories, resampling and ensemble. The resampling models utilize either oversampling or undersampling to better represent both low-risk and high-risk loans, which is necessary because there are many more low-risk loans than high-risk loans. The ensemble models use ensemble algorithms to categorize this same data. These 6 models (4 resampling and 2 ensemble) were then compared using both an accuracy score and a classification report.
 
 ## Results
 With each of the 6 models being run, the following results were found:
