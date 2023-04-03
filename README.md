@@ -35,11 +35,13 @@ The total accuracy with this model is once again slightly lower than that of the
 
 ### Ensemble Models
 #### Random Forest Model
-In this model, many decision tree models are combined to create an ensemble model. The results of this ensemble model are shown below:
+In this model, many decision tree models are combined to create an ensemble model. The results of this ensemble model are shown on the page below.
+
+Here we can see that this ensemble model performs significantly better than the resampling models. The accuracy is about 75% and almost all the classification report values are higher than those of each of the resampling methods. The only exception is the recall for high-risk loans. This is value is lower than that of the SMOTEEN model, so in the case outlined in that model's section, we may prefer that model.
+
 <p align="center">
 <img src="https://github.com/bchillman/Credit_Risk_Analysis/blob/main/Images/Random_Forest.png" width="400" height="291">
 </p>
-Here we can see that this ensemble model performs significantly better than the resampling models. The accuracy is about 75% and almost all the classification report values are higher than those of each of the resampling methods. The only exception is the recall for high-risk loans. This is value is lower than that of the SMOTEEN model, so in the case outlined in that model's section, we may prefer that model.
 
 #### AdaBoost Model
 The final model uses the AdaBoost, which is similar to the random forest model, but each decision tree learns from the previous to make it better. The results of this model are shown below:
